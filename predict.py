@@ -9,6 +9,8 @@ from random import shuffle
 import json
 import os
 import pathlib
+from sklearn.cluster import MiniBatchKMeans
+import traceback
 from subprocess import Popen, PIPE, STDOUT
 import numpy as np
 import faiss
